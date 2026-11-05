@@ -1,0 +1,9 @@
+# build outputs (large; the map zip goes in GitHub Releases)
+work/
+release/
+tests/_work/
+__pycache__/
+*.pyc
+*.osm.pbf
+*.pmtiles
+*.mbtiles

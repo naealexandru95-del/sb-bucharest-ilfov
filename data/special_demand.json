@@ -1,0 +1,36 @@
+{
+  "_note": "Special demand added on top of the base commuter model with depot's add_points. Coordinates are [lon, lat] and approximate; each point absorbs base points within merge_within metres. total_capacity = daily trips the place generates in the model (scaled like depot's US examples, not raw visitor counts). Universities: capacity is derived from students and perc_oncampus (0.3 of on-campus and 0.9 of off-campus students travel). Edit freely and re-run step 05.",
+  "airports": [
+    {"type": "airport", "code": "OTP", "name": "Aeroportul Internațional Henri Coandă",
+     "location": [26.0850, 44.5711], "total_capacity": 13000, "pop_size": 200, "merge_within": 500}
+  ],
+  "universities": [
+    {"type": "university", "code": "UB", "name": "Universitatea din București", "location": [26.1006, 44.4352], "students": 32000, "perc_oncampus": 0.10, "pop_size": 200, "merge_within": 300, "max_distance": 30000},
+    {"type": "university", "code": "UPB", "name": "Universitatea Politehnica București", "location": [26.0490, 44.4385], "students": 28000, "perc_oncampus": 0.25, "pop_size": 200, "merge_within": 400, "max_distance": 30000},
+    {"type": "university", "code": "ASE", "name": "Academia de Studii Economice", "location": [26.0975, 44.4473], "students": 22000, "perc_oncampus": 0.10, "pop_size": 200, "merge_within": 250, "max_distance": 30000},
+    {"type": "university", "code": "UMF", "name": "UMF Carol Davila", "location": [26.0727, 44.4350], "students": 14000, "perc_oncampus": 0.10, "pop_size": 150, "merge_within": 250, "max_distance": 30000},
+    {"type": "university", "code": "USAMV", "name": "USAMV București", "location": [26.0657, 44.4690], "students": 9000, "perc_oncampus": 0.20, "pop_size": 100, "merge_within": 300, "max_distance": 30000},
+    {"type": "university", "code": "UTCB", "name": "Universitatea Tehnică de Construcții", "location": [26.1215, 44.4622], "students": 8000, "perc_oncampus": 0.15, "pop_size": 100, "merge_within": 250, "max_distance": 30000},
+    {"type": "university", "code": "SNSPA", "name": "SNSPA", "location": [26.0640, 44.4655], "students": 5000, "perc_oncampus": 0.0, "pop_size": 100, "merge_within": 200, "max_distance": 30000}
+  ],
+  "other": [
+    {"type": "shopping_center", "code": "AFI", "name": "AFI Cotroceni", "location": [26.0525, 44.4302], "total_capacity": 30000, "pop_size": 200, "merge_within": 300, "max_distance": 30000},
+    {"type": "shopping_center", "code": "BSC", "name": "Băneasa Shopping City", "location": [26.0865, 44.5070], "total_capacity": 22000, "pop_size": 200, "merge_within": 350, "max_distance": 30000},
+    {"type": "shopping_center", "code": "MEGA", "name": "Mega Mall", "location": [26.1560, 44.4422], "total_capacity": 18000, "pop_size": 200, "merge_within": 250, "max_distance": 25000},
+    {"type": "shopping_center", "code": "SUN", "name": "Sun Plaza", "location": [26.1185, 44.3955], "total_capacity": 18000, "pop_size": 200, "merge_within": 250, "max_distance": 25000},
+    {"type": "shopping_center", "code": "PARK", "name": "ParkLake", "location": [26.1528, 44.4207], "total_capacity": 15000, "pop_size": 200, "merge_within": 250, "max_distance": 25000},
+    {"type": "shopping_center", "code": "PROM", "name": "Promenada", "location": [26.1028, 44.4780], "total_capacity": 15000, "pop_size": 200, "merge_within": 200, "max_distance": 25000},
+    {"type": "shopping_center", "code": "UNIR", "name": "Unirea Shopping Center", "location": [26.1045, 44.4275], "total_capacity": 15000, "pop_size": 200, "merge_within": 200, "max_distance": 25000},
+    {"type": "shopping_center", "code": "PROM2", "name": "Plaza România", "location": [26.0335, 44.4285], "total_capacity": 11000, "pop_size": 200, "merge_within": 250, "max_distance": 20000},
+    {"type": "shopping_center", "code": "MILS", "name": "Militari Shopping", "location": [25.9900, 44.4340], "total_capacity": 11000, "pop_size": 200, "merge_within": 300, "max_distance": 20000},
+    {"type": "stadium", "code": "ARENA", "name": "Arena Națională", "location": [26.1525, 44.4372], "total_capacity": 6000, "pop_size": 200, "merge_within": 250, "max_distance": 40000},
+    {"type": "convention_center", "code": "ROMEX", "name": "Romexpo", "location": [26.0700, 44.4770], "total_capacity": 4000, "pop_size": 100, "merge_within": 250, "max_distance": 30000},
+    {"type": "park", "code": "HERA", "name": "Parcul Regele Mihai I (Herăstrău)", "location": [26.0830, 44.4720], "total_capacity": 12000, "pop_size": 150, "merge_within": 300, "max_distance": 25000},
+    {"type": "park", "code": "CISM", "name": "Grădina Cișmigiu", "location": [26.0910, 44.4372], "total_capacity": 5000, "pop_size": 100, "merge_within": 150, "max_distance": 20000},
+    {"type": "park", "code": "TINE", "name": "Parcul Tineretului", "location": [26.1070, 44.4060], "total_capacity": 7000, "pop_size": 100, "merge_within": 250, "max_distance": 20000},
+    {"type": "park", "code": "IOR", "name": "Parcul Titan (IOR)", "location": [26.1600, 44.4170], "total_capacity": 7000, "pop_size": 100, "merge_within": 250, "max_distance": 20000},
+    {"type": "hospital", "code": "FLOR", "name": "Spitalul de Urgență Floreasca", "location": [26.1015, 44.4555], "total_capacity": 4000, "pop_size": 100, "merge_within": 200, "max_distance": 40000},
+    {"type": "hospital", "code": "FUND", "name": "Institutul Clinic Fundeni", "location": [26.1585, 44.4570], "total_capacity": 3500, "pop_size": 100, "merge_within": 200, "max_distance": 40000},
+    {"type": "hospital", "code": "SUUB", "name": "Spitalul Universitar de Urgență", "location": [26.0735, 44.4325], "total_capacity": 3500, "pop_size": 100, "merge_within": 150, "max_distance": 40000}
+  ]
+}

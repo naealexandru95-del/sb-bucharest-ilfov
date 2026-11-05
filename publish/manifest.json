@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "subway-builder": "<=GAME_VERSION"
+  }
+}
